@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/header_id_ticket"
+        android:layout_width="100sp"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/user_ticket_id"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/header_subject_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/user_ticket_subject"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>

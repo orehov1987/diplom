@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RowListViewUserTickets"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_ticket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="20sp"
+        android:paddingTop="20sp"
+        android:text="@string/user_ticket_id"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/subject_ticket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="@string/user_ticket_subject"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp" />
+</LinearLayout>

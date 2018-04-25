@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">testjson</string>
+    <string name="title_activity_login" translatable="false">Введите логин и пароль!</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Логин</string>
+    <string name="prompt_password" translatable="false">Пароль</string>
+    <string name="action_sign_in" translatable="false">Войти</string>
+    <string name="action_sign_in_short" translatable="false">Войти</string>
+    <string name="error_invalid_email" translatable="false">Неверный логин</string>
+    <string name="error_invalid_password" translatable="false">Очень короткий пароль</string>
+    <string name="error_incorrect_password" translatable="false">Неверный пароль</string>
+    <string name="error_field_required" translatable="false">Необходимое поле</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- String for user tickets -->
+    <string name="title_activity_user_tickets" translatable="false">Заявки пользователя</string>
+    <!-- String for user tickets listview -->
+    <string name="user_ticket_id">№</string>
+    <string name="user_ticket_subject">Тема заявки</string>
+    <!--for button nobody tickets-->
+    <string name="call_nobody_tickets">Перейти к нераспределенным заявкам</string>
+    <!--for activity nobody tickets-->
+    <string name="title_activity_nobody_tickets">Нераспределенные заявки</string>
+    <!--for button user tickets-->
+    <string name="call_user_tickets">Перейти к заявкам пользователя</string>
+    <string name="exit">Выйти</string>
+    <!--for buttons ticket-->
+    <string name="call_list_tickets">Вернуться к списку заявок</string>
+    <string name="change_owner_ticket">Назначить себе</string>
+    <string name="resolve_ticket">Закрыть заявку</string>
+    <!--for ticket-->
+    <string name="title_activity_ticket">Заявка</string>
+    <!--catch exception change owner-->
+    <string name="accept_request_from_ticket">Выполнен успешно!</string>
+    <string name="error_request_from_ticket">Что-то пошло не так!</string>
+</resources>
